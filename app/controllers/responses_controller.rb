@@ -6,6 +6,8 @@ class ResponsesController < ApplicationController
       r.Message "Hello, World!"
     end
     twiml.text
+    
+    render :text => "Good!"
     # @session = Tropo::Generator.parse params
     #
     # # if params[:session][:to][:network] == "IM" #debug mode
