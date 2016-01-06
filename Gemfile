@@ -17,6 +17,7 @@ gem 'thin'
 gem 'airbrake'
 gem 'taps'
 gem 'cancan'
+gem 'twilio-ruby', '~> 4.2.1'
 
 gem "dalli"
 gem "sidekiq"
